@@ -1,0 +1,4 @@
+generated.pem
+generated.crt
+generated.key
+kubeconfig
