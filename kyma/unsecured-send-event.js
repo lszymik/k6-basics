@@ -8,7 +8,7 @@ export let options = {
 
 export let configuration = {
     params:  { headers: { "Content-Type": "application/json" } },
-    url: "https://gateway.lszymik-next3.cluster.stage.faros.kyma.cx/lszymik/v1/events",
+    url: "https://gateway.lszymik-next3.cluster.stage.faros.kyma.cx/perf-app/v1/events",
     payload: JSON.stringify({"event-type" : "petCreated","event-type-version" : "v1","event-time" : "2018-11-02T22:08:41+00:00","data" : {"pet": {"id": "4caad296-e0c5-491e-98ac-0ed118f9474e"}}})
 }
 
